@@ -35,4 +35,4 @@ Enrollment.EnrollmentID,
 Enrollment.StudentID
 FROM Course
 RIGHT JOIN Enrollment
-ON Course.CourseID = Enrollment.Co
+ON Course.CourseID = Enrollment.CourseID;
